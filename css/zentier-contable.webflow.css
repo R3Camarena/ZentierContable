@@ -1,0 +1,749 @@
+:root {
+  --white: white;
+  --blue\<deleted\|variable-db99825c-24b4-cb19-d189-3c928e7e86c7\>: #3498db;
+  --purple\<deleted\|variable-d8f4da11-b2e3-dace-652f-85095f158634\>: #6259a6;
+  --black: black;
+}
+
+body {
+  color: var(--white);
+  font-family: Baselgrotesk, sans-serif;
+  font-size: 1rem;
+  line-height: 20px;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+.container-slim {
+  width: 75%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-slim.center {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.tabs-menu {
+  max-width: 1440px;
+  display: flex;
+  overflow: scroll;
+}
+
+.tab-link, .gradient-blue {
+  background-image: linear-gradient(to bottom, var(--blue\<deleted\|variable-db99825c-24b4-cb19-d189-3c928e7e86c7\>), var(--purple\<deleted\|variable-d8f4da11-b2e3-dace-652f-85095f158634\>));
+}
+
+.h1 {
+  color: var(--white);
+  font-family: Dala Floda, sans-serif;
+  font-size: 4.5rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.h1.mb-2 {
+  margin-bottom: 1rem;
+}
+
+.white-text {
+  color: #fff;
+}
+
+.hero {
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/brooke-cagle-uWVWQ8gF8PE-unsplash.jpg');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.container-wide {
+  width: 90%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-wide.h-vertical-center {
+  align-items: center;
+  display: flex;
+}
+
+.col-padding-0 {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.col-padding-0.col-8.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-padding-0.col-10 {
+  width: 83.32%;
+}
+
+.col-padding-0.col-10.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.col-8 {
+  width: 66.66%;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  position: absolute;
+  top: 0%;
+  bottom: auto;
+  left: 0%;
+  right: 0%;
+}
+
+.nav-link {
+  color: var(--white);
+  padding: 1rem;
+}
+
+.nav-menu {
+  margin-left: auto;
+}
+
+.mb-3 {
+  margin-bottom: 1.5rem;
+}
+
+.mb-3.none {
+  display: none;
+}
+
+.btn-white {
+  background-color: var(--white);
+  color: var(--black);
+}
+
+.cta {
+  background-color: var(--white);
+  text-align: center;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+.h2 {
+  color: var(--black);
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Dala Floda, sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.h2.mb-2 {
+  margin-bottom: 1rem;
+}
+
+.h2.mb-5 {
+  margin-bottom: 2.5rem;
+}
+
+.h2.smaller {
+  font-size: 1.5rem;
+}
+
+.link-black_arrow {
+  grid-column-gap: .5rem;
+  color: var(--black);
+  letter-spacing: 1px;
+  justify-content: center;
+  font-family: Times New Roman, TimesNewRoman, Times, Baskerville, Georgia, serif;
+  font-size: 1.2rem;
+  line-height: 1;
+  text-decoration: none;
+  display: flex;
+}
+
+.link-black_arrow.mb-6 {
+  margin-bottom: 3rem;
+}
+
+.about-us {
+  height: 45rem;
+  background-color: #ebebeb;
+  display: flex;
+}
+
+.left-div {
+  width: 50%;
+  color: var(--black);
+  background-color: #ebebeb;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem 3rem 5rem 6rem;
+  font-family: Baselgrotesk, sans-serif;
+  font-size: 1.15rem;
+  font-weight: 400;
+  line-height: 1;
+  display: flex;
+}
+
+.left-div.left-text.slide-right.scroll {
+  justify-content: flex-start;
+  overflow: scroll;
+}
+
+.about-us_text {
+  color: var(--black);
+  font-family: Dala Floda, sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.right-div {
+  width: 50%;
+}
+
+.full-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.logo-img {
+  width: 55%;
+}
+
+.logo {
+  width: 15%;
+}
+
+.mision {
+  color: var(--black);
+  text-align: center;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+.row {
+  justify-content: space-between;
+  display: flex;
+}
+
+.row.h-vertical-center {
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.mision-container {
+  width: 25%;
+}
+
+.values-title {
+  margin-bottom: 1rem;
+  font-family: Dala Floda, sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.values-text {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.servicios {
+  height: 30rem;
+  background-color: #ebebeb;
+  display: flex;
+}
+
+.servicios-text {
+  color: var(--black);
+  font-family: Dala Floda, sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.list {
+  grid-row-gap: 2rem;
+  flex-direction: column;
+  margin-bottom: 0;
+  display: flex;
+}
+
+.footer {
+  border-top: 1px solid #636161;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer-logo {
+  width: 62.5px;
+  height: 62.5px;
+  margin-bottom: 2rem;
+}
+
+.contact {
+  background-color: var(--white);
+  text-align: center;
+  padding-top: 12rem;
+  padding-bottom: 12rem;
+}
+
+.row-links {
+  margin-bottom: 1.5rem;
+  display: flex;
+}
+
+.footer-link {
+  color: var(--black);
+  margin-bottom: 0;
+  padding: 1rem;
+  text-decoration: none;
+}
+
+.copyright-text {
+  color: rgba(0, 0, 0, .38);
+}
+
+.mb-6 {
+  margin-bottom: 3rem;
+}
+
+.bigger-bold {
+  font-size: 1.35rem;
+}
+
+.live-chat-bottom-text {
+  color: var(--black);
+  margin-bottom: 0;
+  font-family: Baselgrotesk, sans-serif;
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.live-chat-bottom-text.block {
+  margin-bottom: 5px;
+  font-family: Baselgrotesk, sans-serif;
+  font-size: 12px;
+}
+
+.live-chat-link {
+  height: 25%;
+  border-radius: 0;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  display: flex;
+}
+
+.live-chat-text {
+  color: #fff;
+  margin-bottom: 0;
+  font-size: .875rem;
+}
+
+.chat-block {
+  width: 80%;
+  background-color: #fff;
+  border-radius: 8px;
+  padding-top: .9375rem;
+  padding-bottom: .9375rem;
+  padding-left: .9375rem;
+}
+
+.live-chat-button {
+  width: 80%;
+  height: 2.625rem;
+  background-color: #000;
+  border-radius: 200px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.whatsapp-block {
+  z-index: 30;
+  flex-direction: column;
+  align-items: flex-end;
+  display: flex;
+  position: fixed;
+  top: auto;
+  bottom: 30px;
+  left: auto;
+  right: 30px;
+}
+
+.live-icon-chat {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  object-position: 100% 50%;
+  border-radius: 100%;
+  margin-right: 0;
+}
+
+.whatsapp-chat {
+  width: 18.75rem;
+  height: 19.6875rem;
+  opacity: 0;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, .16);
+  border-radius: 20px;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  display: none;
+  overflow: hidden;
+}
+
+.top-section {
+  height: 25%;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: flex;
+}
+
+.whatsapp-container {
+  z-index: 30;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+  background-color: #69ed70;
+  border: 1px solid rgba(255, 255, 255, .3);
+  border-radius: 100px;
+  justify-content: center;
+  align-items: center;
+  transition: all .3s;
+  display: flex;
+  position: relative;
+  top: auto;
+  bottom: 0%;
+  left: auto;
+  right: 0%;
+}
+
+.small-whatsapp-icon {
+  margin-right: 10px;
+}
+
+.chat-section {
+  height: 50%;
+  background-color: #e6ddd4;
+  padding: 1rem 1.25rem;
+}
+
+.live-chat-top-text {
+  color: var(--black);
+  margin-bottom: 0;
+  font-family: Dala Floda, sans-serif;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.live-chat-top-text.block {
+  color: rgba(0, 0, 0, .5);
+  margin-bottom: 10px;
+  font-family: Baselgrotesk, sans-serif;
+}
+
+.toggler-container {
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+.toggler-content {
+  margin-bottom: 1rem;
+  padding-top: 1rem;
+  overflow: hidden;
+}
+
+.buttons {
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1.5rem;
+  display: flex;
+}
+
+.text-span {
+  letter-spacing: -3px;
+  font-family: Montserrat, sans-serif;
+  font-size: 4rem;
+  font-weight: 200;
+  line-height: 1;
+}
+
+.dot-xs {
+  display: none;
+}
+
+@media screen and (max-width: 991px) {
+  .col-padding-0.col-8.col-md-12, .col-padding-0.col-10.mx-auto.col-md-12 {
+    width: 100%;
+  }
+
+  .nav-link {
+    border-bottom: 1px solid rgba(255, 255, 255, .21);
+    margin-bottom: 1.5rem;
+  }
+
+  .nav-menu {
+    background-color: var(--black);
+    padding: 2rem;
+  }
+
+  .menu-button {
+    margin-left: auto;
+  }
+
+  .menu-button.w--open {
+    background-color: var(--white);
+    color: var(--black);
+  }
+
+  .about-us {
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .left-div {
+    width: 100%;
+    padding-left: 3rem;
+  }
+
+  .left-div.left-text.slide-right.scroll {
+    justify-content: center;
+    overflow: visible;
+  }
+
+  .right-div {
+    width: 100%;
+    height: 40rem;
+  }
+
+  .right-div.smaller {
+    height: 30rem;
+  }
+
+  .full-image {
+    object-fit: cover;
+  }
+
+  .logo {
+    width: 25%;
+  }
+
+  .row {
+    grid-row-gap: 3rem;
+    flex-flow: column wrap;
+  }
+
+  .row.h-vertical-center {
+    flex-flow: row;
+    align-items: flex-start;
+  }
+
+  .mision-container {
+    width: 100%;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .servicios {
+    height: 100%;
+    flex-direction: column;
+  }
+
+  .footer-link {
+    border-bottom: 1px solid rgba(255, 255, 255, .21);
+  }
+
+  .toggler-container {
+    padding-left: 0;
+  }
+
+  .toggler-content {
+    padding-left: 1.25rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cta {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .right-div {
+    height: 30rem;
+  }
+
+  .logo {
+    width: 35%;
+  }
+
+  .mision {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+
+  .mision-container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .contact {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .container-slim.center {
+    text-align: center;
+    display: block;
+  }
+
+  .h1.mb-2.xs-text {
+    line-height: .7;
+  }
+
+  .hero, .nav-link {
+    text-align: center;
+  }
+
+  .mb-3.xs-none {
+    display: none;
+  }
+
+  .mb-3.none.xs-block {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: block;
+  }
+
+  .h2.smaller.xs {
+    font-size: 1.25rem;
+  }
+
+  .left-div {
+    text-align: center;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .left-div.left-text {
+    text-align: left;
+  }
+
+  .about-us_text {
+    font-size: 1.5rem;
+  }
+
+  .logo {
+    width: 55%;
+  }
+
+  .mision {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
+  .row.h-vertical-center {
+    justify-content: center;
+  }
+
+  .servicios-text.mb-3.center {
+    text-align: center;
+  }
+
+  .list {
+    padding-left: 20px;
+  }
+
+  .row-links {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-link {
+    text-align: center;
+  }
+
+  .whatsapp-block {
+    right: 15px;
+  }
+
+  .text-span {
+    font-size: 3.5rem;
+  }
+
+  .xs-padding {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .dot-xs {
+    width: 8px;
+    height: 8px;
+    background-color: var(--black);
+    border-radius: 100%;
+    padding-bottom: 0;
+    padding-right: 0;
+    display: block;
+  }
+}
+
+
+@font-face {
+  font-family: 'Baselgrotesk';
+  src: url('../fonts/BaselGrotesk-Regular.woff2') format('woff2'), url('../fonts/BaselGrotesk-Regular.eot') format('embedded-opentype'), url('../fonts/BaselGrotesk-Regular.woff') format('woff'), url('../fonts/BaselGrotesk-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Baselgrotesk';
+  src: url('../fonts/BaselGrotesk-Medium.woff2') format('woff2'), url('../fonts/BaselGrotesk-Medium.eot') format('embedded-opentype'), url('../fonts/BaselGrotesk-Medium.woff') format('woff'), url('../fonts/BaselGrotesk-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dala Floda';
+  src: url('../fonts/DalaFloda-Roman.woff2') format('woff2'), url('../fonts/DalaFloda-Roman.eot') format('embedded-opentype'), url('../fonts/DalaFloda-Roman.woff') format('woff'), url('../fonts/DalaFloda-Roman.ttf') format('truetype'), url('../fonts/Dala-Floda-Roman.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Dala Floda';
+  src: url('../fonts/DalaFloda-Italic.woff2') format('woff2'), url('../fonts/DalaFloda-Italic.eot') format('embedded-opentype'), url('../fonts/DalaFloda-Italic.woff') format('woff'), url('../fonts/DalaFloda-Italic.ttf') format('truetype'), url('../fonts/Dala-Floda-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
